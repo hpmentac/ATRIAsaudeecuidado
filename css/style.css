@@ -1142,7 +1142,7 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
   .nav__has-dropdown.open .nav__dropdown { display: block; }
   .nav__cta { margin: 12px 0 0; }
 
-  .hero__mobile-cta { display: flex; }
+  .hero__img { height: 220px; object-fit: cover; object-position: center; }
 
   .promo-banner__inner { gap: 32px; }
   .cuidados__inner { gap: 32px; }
