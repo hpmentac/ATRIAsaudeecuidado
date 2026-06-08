@@ -1099,10 +1099,9 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
 @media (max-width: 768px) {
   .topbar { display: none; }
 
-  body { padding-top: 60px; }
-
   /* Header mobile – fixed para garantir colagem total no topo em iOS */
   .header { position: fixed; top: 0; left: 0; right: 0; }
+  .hero { padding-top: 60px; }
   .header__inner { height: 60px; padding: 0 16px; gap: 8px; }
   .header__logo img { height: 44px; width: auto; object-fit: contain; }
   .header__brand-name { display: none; }
