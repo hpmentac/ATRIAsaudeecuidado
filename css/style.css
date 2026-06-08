@@ -6,7 +6,7 @@
 /* ---- Reset & Base ---- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; background: #fff; }
 
 body {
   font-family: 'Nunito', sans-serif;
@@ -1099,8 +1099,16 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
 @media (max-width: 768px) {
   .topbar { display: none; }
 
-  /* Header mobile – sticky: sem gap, sem bugs de fixed no iOS */
-  .header { position: sticky; top: 0; }
+  /* Header mobile – fixed com safe-area: elimina gap em iOS/WKWebView */
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: env(safe-area-inset-top, 0px);
+    z-index: 1000;
+  }
+  body { padding-top: calc(60px + env(safe-area-inset-top, 0px)); }
   .header__inner { height: 60px; padding: 0 16px; gap: 8px; }
   .header__logo img { height: 44px; width: auto; object-fit: contain; }
   .header__brand-name { display: none; }
@@ -1108,7 +1116,7 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
   .hamburger { display: flex; }
   .nav {
     position: fixed;
-    top: 60px;
+    top: calc(60px + env(safe-area-inset-top, 0px));
     left: 0;
     right: 0;
     background: #fff;
