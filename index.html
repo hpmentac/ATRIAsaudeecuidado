@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BH Home Care Elderly – Acompanhante Domiciliar e Hospitalar em BH</title>
+  <meta name="description" content="A BH Home Care Elderly oferece serviços de acompanhante domiciliar e hospitalar em Belo Horizonte. Cuidamos de quem você ama com responsabilidade técnica junto ao COREN-MG." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="header__logo">
+        <img src="brand_assetss/logoatria11.png"
+             alt="Atria Saúde e Cuidado" />
+        <span class="header__brand-name">Atria <em>Saúde e Cuidado</em></span>
+      </a>
+
+      <button class="hamburger" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="mainNav">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link">Início</a></li>
+          <li><a href="#sobre" class="nav__link">Sobre Nós</a></li>
+          <li class="nav__has-dropdown">
+            <a href="#servicos" class="nav__link">
+              Serviços <i class="fas fa-chevron-down"></i>
+            </a>
+            <ul class="nav__dropdown">
+              <li><a href="#acompanhante-hospitalar">Acompanhamento Hospitalar</a></li>
+              <li><a href="#acompanhante-domiciliar">Acompanhante Domiciliar</a></li>
+            </ul>
+          </li>
+          <li><a href="#como-funciona" class="nav__link">Como Funciona</a></li>
+          <li><a href="#porque" class="nav__link">Por que a Atria?</a></li>
+          <li><a href="#faq" class="nav__link">FAQ</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO / BANNER ===== -->
+  <section class="hero" id="inicio">
+    <img
+      src="brand_assetss/bannerhero011 (1).png"
+      alt="Atria Saúde e Cuidado – Banner"
+      class="hero__img"
+      width="1920" height="525"
+    />
+    <div class="hero__mobile-cta">
+      <a href="https://wa.me/5531983381373" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
+        <i class="fab fa-whatsapp"></i> CONTATE-NOS
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== FAIXA CONTATO RÁPIDO ===== -->
+  <section class="quick-bar" id="contato-rapido">
+    <div class="container">
+      <h2 class="quick-bar__title">PROCURANDO HOME CARE EM DIAMANTINA?</h2>
+      <div class="quick-bar__items">
+        <a href="https://wa.me/5538997229126" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
+          <i class="fab fa-whatsapp"></i> Fale pelo WhatsApp (38) 9722-9126
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE NÓS ===== -->
+  <section class="sobre" id="sobre">
+    <div class="container sobre__inner">
+      <div class="sobre__img-wrap">
+        <img
+          src="https://bhhomecare.com.br/wp-content/uploads/2024/10/home-care-cuidador-domiciliar-e-hospitalar-bh-banner-3.png"
+          alt="Cuidadora e idosa felizes – BH Home Care"
+          loading="lazy"
+        />
+      </div>
+      <div class="sobre__content">
+        <h2 class="section-title">Sobre <span>nós</span></h2>
+        <p>
+          A <strong>Atria Saúde e Cuidado</strong> tem como missão proporcionar mais qualidade de vida, conforto e dignidade às pessoas que precisam de cuidados especiais, levando atenção personalizada diretamente ao lar de cada paciente.
+        </p>
+        <p>
+          Somos uma empresa especializada em <strong>acompanhante domiciliar</strong> e <strong>acompanhamento hospitalar</strong> em Diamantina, com equipe treinada e supervisionada por enfermeiro registrado no <strong>COREN-MG</strong>, garantindo segurança, conforto e bem-estar para os pacientes e tranquilidade para suas famílias.
+        </p>
+        <ul class="sobre__list">
+          <li><i class="fas fa-check-circle"></i> Empresa regularmente registrada (CNPJ)</li>
+          <li><i class="fas fa-check-circle"></i> Capital social declarado</li>
+          <li><i class="fas fa-check-circle"></i> Seguro de responsabilidade civil</li>
+          <li><i class="fas fa-check-circle"></i> Supervisão de enfermagem (COREN-MG)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVIÇOS ===== -->
+  <section class="servicos" id="servicos">
+    <div class="container">
+      <h2 class="section-title text-center">Nossos <span>Serviços</span></h2>
+      <p class="section-sub text-center">Cuidado profissional e personalizado para cada necessidade, adaptado à rotina do paciente e da família.</p>
+
+      <div class="servicos__grid">
+
+        <!-- Acompanhante Hospitalar -->
+        <div class="servico-card" id="acompanhante-hospitalar">
+          <div class="servico-card__icon">
+            <img src="https://bhhomecare.com.br/wp-content/uploads/2024/11/acompanhando-hospitalar-domiciliar-home-care-bh-icoes-1.png"
+                 alt="Acompanhante Hospitalar" width="64" height="64" />
+          </div>
+          <h3>Acompanhante Hospitalar</h3>
+          <p>Profissionais dedicados ao acompanhamento de pacientes internados. Os plantões podem ser quinzenais ou mensais, conforme a necessidade da família e do paciente.</p>
+          <ul class="servico-card__list">
+            <li><i class="fas fa-check"></i> Plantões de 12×36 ou 24 horas</li>
+            <li><i class="fas fa-check"></i> Escalas quinzenais ou mensais</li>
+            <li><i class="fas fa-check"></i> Substituição garantida em faltas</li>
+            <li><i class="fas fa-check"></i> Relatórios para a família</li>
+          </ul>
+        </div>
+
+        <!-- Acompanhante Domiciliar -->
+        <div class="servico-card" id="acompanhante-domiciliar">
+          <div class="servico-card__icon">
+            <img src="https://bhhomecare.com.br/wp-content/uploads/2024/11/acompanhando-hospitalar-domiciliar-home-care-bh-icoes-2.png"
+                 alt="Acompanhante Domiciliar" width="64" height="64" />
+          </div>
+          <h3>Acompanhante Domiciliar</h3>
+          <p>Cuidado especializado no conforto do lar. Os plantões são realizados de forma quinzenal ou mensal, adaptando-se à rotina e às necessidades do paciente.</p>
+          <ul class="servico-card__list">
+            <li><i class="fas fa-check"></i> Plantões quinzenal ou mensal</li>
+            <li><i class="fas fa-check"></i> Adaptação à rotina do paciente</li>
+            <li><i class="fas fa-check"></i> Supervisão mensal de enfermagem</li>
+            <li><i class="fas fa-check"></i> Monitoramento e relatórios</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMO FUNCIONA ===== -->
+  <section class="como-funciona" id="como-funciona">
+    <div class="container">
+      <h2 class="section-title text-center">Como <span>Funciona</span></h2>
+      <p class="section-sub text-center">Nosso fluxo de atendimento</p>
+
+      <div class="cf-grid">
+
+        <div class="cf-card">
+          <div class="cf-icon-wrap"><div class="cf-number">1</div><div class="cf-icon"><i class="fas fa-phone-alt"></i></div></div>
+          <h4>Cliente Entra em Contato</h4>
+          <ul>
+            <li>Atendimento via telefone, WhatsApp ou formulário</li>
+            <li>Coleta das informações iniciais e demanda</li>
+          </ul>
+        </div>
+
+        <div class="cf-arrow"><i class="fas fa-chevron-right"></i></div>
+
+        <div class="cf-card">
+          <div class="cf-icon-wrap"><div class="cf-number">2</div><div class="cf-icon"><i class="fas fa-clipboard-list"></i></div></div>
+          <h4>Triagem Inicial <span>(Online ou Presencial)</span></h4>
+          <ul>
+            <li>Entendimento da necessidade</li>
+            <li>Orientações iniciais</li>
+            <li>Agendamento da avaliação com o enfermeiro</li>
+          </ul>
+        </div>
+
+        <div class="cf-arrow"><i class="fas fa-chevron-right"></i></div>
+
+        <div class="cf-card">
+          <div class="cf-icon-wrap"><div class="cf-number">3</div><div class="cf-icon"><i class="fas fa-stethoscope"></i></div></div>
+          <h4>Avaliação do Enfermeiro</h4>
+          <ul>
+            <li>Avaliação clínica e funcional</li>
+            <li>Coleta de dados e histórico</li>
+            <li>Identificação das necessidades e riscos</li>
+          </ul>
+        </div>
+
+        <div class="cf-arrow"><i class="fas fa-chevron-right"></i></div>
+
+        <div class="cf-card">
+          <div class="cf-icon-wrap"><div class="cf-number">4</div><div class="cf-icon"><i class="fas fa-notes-medical"></i></div></div>
+          <h4>Definição do Plano de Cuidados</h4>
+          <ul>
+            <li>Elaboração do plano personalizado</li>
+            <li>Definição dos cuidados e frequência</li>
+            <li>Orientações à família</li>
+          </ul>
+        </div>
+
+        <div class="cf-card">
+          <div class="cf-icon-wrap"><div class="cf-number">5</div><div class="cf-icon"><i class="fas fa-user-nurse"></i></div></div>
+          <h4>Escala do Profissional</h4>
+          <ul>
+            <li>Seleção do profissional ideal para o perfil</li>
+            <li>Verificação de disponibilidade</li>
+            <li>Alinhamento de horários</li>
+          </ul>
+        </div>
+
+        <div class="cf-arrow"><i class="fas fa-chevron-right"></i></div>
+
+        <div class="cf-card">
+          <div class="cf-icon-wrap"><div class="cf-number">6</div><div class="cf-icon"><i class="fas fa-file-signature"></i></div></div>
+          <h4>Assinatura de Contrato</h4>
+          <ul>
+            <li>Apresentação do contrato</li>
+            <li>Esclarecimento de dúvidas</li>
+            <li>Formalização do serviço</li>
+          </ul>
+        </div>
+
+        <div class="cf-arrow"><i class="fas fa-chevron-right"></i></div>
+
+        <div class="cf-card">
+          <div class="cf-icon-wrap"><div class="cf-number">7</div><div class="cf-icon"><i class="fas fa-home"></i></div></div>
+          <h4>Início do Atendimento</h4>
+          <ul>
+            <li>Apresentação do profissional</li>
+            <li>Início dos cuidados conforme plano</li>
+            <li>Orientações contínuas à família</li>
+          </ul>
+        </div>
+
+        <div class="cf-arrow"><i class="fas fa-chevron-right"></i></div>
+
+        <div class="cf-card cf-card--highlight">
+          <div class="cf-icon-wrap"><div class="cf-number">8</div><div class="cf-icon cf-icon--gold"><i class="fas fa-comments"></i></div></div>
+          <h4>Acompanhamento e Feedback</h4>
+          <ul>
+            <li>Acompanhamento contínuo do plano</li>
+            <li>Feedback da família e ajustes quando necessário</li>
+            <li>Relatórios e suporte da equipe</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORQUE ESCOLHER ===== -->
+  <section class="porque" id="porque">
+    <div class="container">
+      <h2 class="section-title text-center">Por que escolher a <span>Atria?</span></h2>
+      <p class="section-sub text-center">Comprometidos com o bem-estar do seu familiar em cada detalhe do cuidado.</p>
+
+      <div class="porque__grid">
+        <div class="porque-item">
+          <div class="porque-item__icon"><i class="fas fa-heart"></i></div>
+          <h4>Cuidado Integral</h4>
+          <p>Atendimento que vai além do físico, cuidando também do bem-estar emocional e social do paciente.</p>
+        </div>
+        <div class="porque-item">
+          <div class="porque-item__icon"><i class="fas fa-user-nurse"></i></div>
+          <h4>Equipe Qualificada</h4>
+          <p>Cuidadores treinados e em constante capacitação, com supervisão regular de enfermagem COREN-MG.</p>
+        </div>
+        <div class="porque-item">
+          <div class="porque-item__icon"><i class="fas fa-chart-line"></i></div>
+          <h4>Monitoramento e Relatórios</h4>
+          <p>Relatórios periódicos detalhados sobre o estado e evolução do paciente para manter a família informada.</p>
+        </div>
+        <div class="porque-item">
+          <div class="porque-item__icon"><i class="fas fa-clipboard-list"></i></div>
+          <h4>Atendimento Personalizado</h4>
+          <p>Plano de cuidados customizado para cada paciente, respeitando suas necessidades e preferências.</p>
+        </div>
+        <div class="porque-item">
+          <div class="porque-item__icon"><i class="fas fa-people-arrows"></i></div>
+          <h4>Conexão Familiar</h4>
+          <p>Facilitamos a comunicação entre cuidadores e familiares para garantir transparência e confiança total.</p>
+        </div>
+        <div class="porque-item">
+          <div class="porque-item__icon"><i class="fas fa-star"></i></div>
+          <h4>Foco na Qualidade de Vida</h4>
+          <p>Nossa missão é melhorar a qualidade de vida dos pacientes com dignidade, respeito e carinho.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AVALIAÇÕES ===== -->
+  <section class="avaliacoes">
+    <div class="container">
+      <h2 class="section-title text-center">Avaliações de nossos <span>clientes</span></h2>
+      <p class="section-sub text-center">A opinião de quem já confiou nos nossos serviços.</p>
+
+      <div class="avaliacoes__grid">
+        <div class="avaliacao-card">
+          <div class="avaliacao-card__stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"A Atria foi fundamental nos últimos meses de vida da minha mãe. Os cuidadores foram excepcionais, carinhosos e sempre presentes. Indicaria para qualquer família."</p>
+          <strong>Ana Paula Souza</strong>
+        </div>
+        <div class="avaliacao-card">
+          <div class="avaliacao-card__stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"Meu pai ficou internado por 3 semanas e a equipe da Atria esteve presente todos os dias. Profissionalismo e cuidado que nos deram muita tranquilidade."</p>
+          <strong>Carlos Henrique Lima</strong>
+        </div>
+        <div class="avaliacao-card">
+          <div class="avaliacao-card__stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-stroke"></i>
+          </div>
+          <p>"Contratei o acompanhamento domiciliar para minha avó com Alzheimer. A cuidadora é dedicada, paciente e muito profissional. Recomendo a Atria!"</p>
+          <strong>Mariana Costa</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAIXA INSTITUCIONAL ===== -->
+  <section class="faixa-inst">
+    <div class="container faixa-inst__inner">
+
+      <div class="faixa-inst__col">
+        <h4 class="faixa-inst__label">Sobre o Serviço</h4>
+        <p>A Atria intermedia profissionais de enfermagem para garantir cuidados seguros, éticos e humanizados, no conforto do seu lar.</p>
+      </div>
+
+      <div class="faixa-inst__badge">
+        <i class="fas fa-medal"></i>
+        <div>
+          <span>Atividades de Enfermagem</span>
+          <strong>8650-0/01</strong>
+        </div>
+      </div>
+
+      <div class="faixa-inst__col">
+        <h4 class="faixa-inst__label">Nosso Compromisso</h4>
+        <p>Cuidado com amor, excelência e responsabilidade em cada detalhe do atendimento.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <h2 class="section-title text-center">Perguntas <span>Frequentes</span></h2>
+      <p class="section-sub text-center">Encontre respostas para as dúvidas mais comuns sobre nossos serviços.</p>
+
+      <div class="faq__list">
+
+        <div class="faq-item">
+          <button class="faq-item__btn" aria-expanded="false">
+            Como são organizados os plantões dos cuidadores?
+            <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq-item__body">
+            <p>Os plantões podem ser realizados no formato 12×36 horas ou 24 horas corridas, de forma quinzenal ou mensal, conforme a necessidade da família e do paciente.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__btn" aria-expanded="false">
+            O que acontece em caso de falta do cuidador?
+            <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq-item__body">
+            <p>A Atria Saúde e Cuidado garante a substituição do profissional em caso de falta ou imprevisto, assegurando continuidade no atendimento ao paciente.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__btn" aria-expanded="false">
+            Como é feita a supervisão dos cuidadores?
+            <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq-item__body">
+            <p>Um enfermeiro registrado no COREN realiza visitas mensais ao paciente para avaliar a qualidade do atendimento e ajustar o plano de cuidados quando necessário.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__btn" aria-expanded="false">
+            A empresa é responsável por problemas trabalhistas?
+            <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq-item__body">
+            <p>Sim. A Atria Saúde e Cuidado gerencia os profissionais e contratos, assumindo a responsabilidade sobre questões relacionadas à prestação de serviços, protegendo a família de complicações legais.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CANAIS DE ATENDIMENTO / CONTATO ===== -->
+  <section class="contato" id="contato">
+    <div class="container contato__inner">
+
+      <div class="contato__info">
+        <h2 class="section-title">Canais de <span>atendimento</span></h2>
+        <p>Estamos prontos para atendê-lo. Entre em contato pelos nossos canais ou preencha o formulário.</p>
+
+        <div class="contato__canais">
+          <a href="https://wa.me/5538997229126" target="_blank" rel="noopener" class="canal canal--whatsapp">
+            <i class="fab fa-whatsapp"></i>
+            <div>
+              <strong>WhatsApp</strong>
+              <span>(38) 9722-9126</span>
+            </div>
+          </a>
+          <a href="mailto:contato@atria.com.br" class="canal">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <strong>E-mail</strong>
+              <span>contato@atria.com.br</span>
+            </div>
+          </a>
+          <div class="canal canal--nolink">
+            <i class="fas fa-location-dot"></i>
+            <div>
+              <strong>Endereço</strong>
+              <span>(A preencher)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contato__social">
+          <a href="https://www.instagram.com/bh_home_care_elderly/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/5538997229126" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <div class="footer__logo-wrap">
+          <img src="brand_assetss/logoatria11.png" alt="Atria Saúde e Cuidado" class="footer__logo" />
+          <span class="footer__brand-name">Atria <em>Saúde e Cuidado</em></span>
+        </div>
+        <p>Cuidado humanizado e especializado para idosos e pacientes em Diamantina e região.</p>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/5538997229126" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer__nav">
+        <h4>Links</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#como-funciona">Como Funciona</a></li>
+          <li><a href="#porque">Por que a Atria?</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contact">
+        <h4>Contato</h4>
+        <ul>
+          <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/5538997229126" target="_blank" rel="noopener">(38) 9722-9126</a></li>
+          <li><i class="fas fa-envelope"></i> <a href="mailto:contato@atria.com.br">contato@atria.com.br</a></li>
+          <li><i class="fas fa-location-dot"></i> <span>(A preencher)</span></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== WHATSAPP FLUTUANTE ===== -->
+  <a href="https://wa.me/5531983381373"
+     target="_blank"
+     rel="noopener"
+     class="wa-float"
+     aria-label="Fale conosco pelo WhatsApp">
+    <img src="https://bhhomecare.com.br/wp-content/uploads/2024/08/whatsapp-contato-botao.png"
+         alt="WhatsApp BH Home Care" width="60" height="60" />
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
