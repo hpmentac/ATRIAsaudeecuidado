@@ -1100,15 +1100,15 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
   .topbar { display: none; }
 
   /* Header mobile */
-  .header__inner { height: auto; padding: 10px 0; gap: 10px; }
-  .header__logo img { height: 42px; }
-  .header__brand-name { font-size: 0.93rem; }
-  .header__brand-name em { font-size: 0.67rem; }
+  .header { overflow: visible; }
+  .header__inner { height: 60px; padding: 0; gap: 8px; }
+  .header__logo img { height: 60px; width: 60px; object-fit: contain; object-position: center; }
+  .header__brand-name { display: none; }
 
   .hamburger { display: flex; }
   .nav {
     position: fixed;
-    top: 62px;
+    top: 60px;
     left: 0;
     right: 0;
     background: #fff;
