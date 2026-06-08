@@ -1099,10 +1099,16 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
 @media (max-width: 768px) {
   .topbar { display: none; }
 
+  /* Header mobile */
+  .header__inner { height: 64px; gap: 12px; }
+  .header__logo img { height: 48px; }
+  .header__brand-name { font-size: 0.97rem; }
+  .header__brand-name em { font-size: 0.68rem; }
+
   .hamburger { display: flex; }
   .nav {
     position: fixed;
-    top: 76px;
+    top: 64px;
     left: 0;
     right: 0;
     background: #fff;
@@ -1139,7 +1145,27 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
   .promo-banner__inner { gap: 32px; }
   .cuidados__inner { gap: 32px; }
   .contato__inner { gap: 32px; }
-  .footer__grid { grid-template-columns: 1fr; gap: 28px; padding: 40px 0 28px; }
+
+  /* Footer mobile */
+  .footer__grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding: 0;
+  }
+  .footer__brand,
+  .footer__nav,
+  .footer__contact {
+    padding: 32px 20px;
+    border-bottom: 1px solid #E8E0F5;
+  }
+  .footer__logo-wrap { margin-bottom: 16px; }
+  .footer__brand p { margin-bottom: 20px; }
+  .footer__nav h4,
+  .footer__contact h4 { margin-bottom: 14px; }
+  .footer__nav ul { gap: 12px; }
+  .footer__contact ul { gap: 14px; }
+  .footer__contact li { font-size: 0.93rem; }
+
   .footer__bottom .container { flex-direction: column; text-align: center; }
 
   .porque__grid { grid-template-columns: 1fr; }
